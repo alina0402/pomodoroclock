@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d0d0d0;
+}
+#root{
+  height: 100vh;
+}
+
+@import url(//fonts.googleapis.com/css?family=Inconsolata);
+
+.content{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: burlywood;
+  height: auto;
+  width: 300px;
+  margin: auto;
+}
+
+h1{
+  font-size: 2em;
+  color: maroon;
+}
+
+.managingElements{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.manage{
+  margin: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: maroon;
+}
+
+.decrementAndIncrement{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  background-color: burlywood;
+  border: 0;
+  padding: 0;
+}
+
+.timerElement{
+  border: 3px solid #d0d0d0;
+  margin: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30%;
+}
+
+#timer-label{
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: maroon;
+}
+
+#time-left{
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'Inconsolata', 'Courier New', Courier, monospace;
+}
+
+.icon{
+  margin: 2px;
+}
+
+.btn{
+  margin: 5px 5px 20px 5px;
+  padding: 5px;
+  border-radius: 10%;
+  
+}
+
+.arrow{
+  color: white;
+  background-color: burlywood;
+  border: 0;
+  padding: 0;
+}
+
+.arrow:hover{
+  cursor: pointer;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
